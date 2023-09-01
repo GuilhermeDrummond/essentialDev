@@ -1,8 +1,7 @@
-let clicar = document.getElementById("button");
-let email = document.getElementById("E-mail");  
-let password = document.getElementById("senha");  
-
-function entrar() {
-    alert('BONS ESTUDOS')
-    window.location.href = "index.html";
+function entrar () {
+    let email = document.getElementById("e-mail"); 
+    let password = document.getElementById("senha");
+    if(email.value && password.value) {
+        window.location.href = "index.html"
+    }
 }
