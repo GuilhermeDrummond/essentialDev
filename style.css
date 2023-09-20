@@ -1,0 +1,66 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: forestgreen;
+    margin-top: 40px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: forestgreen;
+    font-size: 18px;
+
+}
+#logo {
+    height: 100px;
+    margin-left: 200px;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 41px;
+    align-items: baseline;
+    margin-left: 600px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: forestgreen;
+    font-size: 20px;
+}
+
+#capa {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.nav-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: rgb(27, 26, 26);
+    color: forestgreen;
+    border-radius: 10px;
+    width: 700px;
+    height: 40px;
+    
+}
